@@ -24,3 +24,21 @@ h1 {
     font-style: italic;
     color: #999;
 }
+
+#center{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+#dogImage{
+    height: 400px;
+    object-fit:none;
+}
+
+.container{
+    height: 500px;
+    background-color:blueviolet;
+}
