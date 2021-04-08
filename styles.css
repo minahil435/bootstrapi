@@ -33,6 +33,7 @@ h1 {
     align-items: center;
     gap: 10px;
 }
+
 #dogImage{
     height: 400px;
     object-fit:none;
@@ -40,5 +41,57 @@ h1 {
 
 .container{
     height: 500px;
-    background-color:blueviolet;
+    width: 200px;
+}
+#weatherBox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://i.redd.it/p3n6472ck0441.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+#leftweatherBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#rightweatherBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.leftweatherBoxDetail{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+#myCarousel{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+#bkjoke{
+    padding: 50px;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/noah-ark/289/noah-ark-004-512.png");
+    background-repeat: no-repeat;
+    background-size:contain;
 }
